@@ -1,0 +1,291 @@
+/* navbar */
+html{
+	font-size: 100%;
+}
+
+#navi{
+    margin-top: 1.6875rem;
+    margin-left: 1.6875rem;
+    border-radius: 3.125rem 3.125rem; 
+    position: absolute; 
+    /* width: 80.9375rem; */
+	width: 96%;
+    height: 5rem;
+}
+
+#navi a:hover{
+	color: white;
+}
+
+#newnavi a:hover{
+	color: white;
+}
+
+#logo{
+    border-radius: 71.875rem;
+    margin-top: 0.625rem;
+	position: absolute; 
+	float: left; 
+	width: 6.875rem; 
+	height: 6.875rem;
+}
+
+#logoname{
+    display: none;
+}
+
+#navbarNavDropdown{
+	margin-left: 120px;
+	padding-left: 8px;
+}
+
+#newlogoname{
+    visibility: visible;
+	padding-left: 8px;
+}
+
+#newlogo{
+    display: none;
+	border-radius: 71.875rem;
+    margin-top: 0.625rem;
+	position: absolute; 
+	float: left; 
+	width: 6.875rem; 
+	height: 6.875rem;
+}
+
+#newnavi{
+    position:fixed;
+	height: 4.6875rem;
+    width: 100%;
+    z-index: 300;
+} 
+
+#reserve{
+	display: inline;
+	float: right; 
+	margin-right: 1.25rem;
+}
+
+#newreserve{
+	display: none;
+}
+
+#reserve-button{ 
+	font-size: 1.0625rem; 
+	border-radius: 3.125rem 3.125rem;  
+	color: white;
+	width: 6.25rem;
+}
+
+#reserve-button:hover, #button:hover{
+	color:#FFF;
+	opacity:0.8;
+}
+
+#contact_nav{
+	display: inline-block;
+	padding-top: 1.25rem;
+	margin-right: 0.9375rem;
+}
+
+#newcontact_nav{
+	display: none;
+}
+
+#icon1{
+	width: 0.8125rem;
+	height: 0.8125rem; 
+	margin-right: 0.25rem;
+}
+
+#icon2{
+	width: 1.25rem;
+	height: 0.8125rem; 
+	margin-right: 0.125rem;
+}
+
+#button{
+	margin-top: 1.25rem; 
+	font-size: 1.25rem; 
+	border-radius: 3.125rem 3.125rem; 
+	background-color: rgba(45, 133, 45, 0.99); 
+	padding: 0.625rem; 
+	padding-left: 1.25rem; 
+	padding-right: 1.25rem; 
+	color: white;
+}
+/* navbar */
+
+/* background */
+#bg-image{
+	height: 41.25rem;
+}
+
+#bg-dark{
+	height: 43.75rem; 
+	padding-right: 0.9375rem; 
+	padding-left: 0.9375rem;
+}
+/* background */
+
+
+
+
+
+a:link, a:visited, a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.menu-nav {
+	text-align: center;
+}
+
+.menu-nav li {
+	position:relative;
+	display:inline-block;
+	margin-right:-0.25rem;
+	border-bottom: 0.0625rem solid #ECECEC;
+	background-color: #FFF;
+}
+
+.menu-nav li + li {
+	-webkit-box-shadow:-0.0625rem 0rem 0rem 0rem #ECECEC;
+	        box-shadow:-0.0625rem 0rem 0rem 0rem #ECECEC;
+}
+
+.menu-nav li a {
+	font-family: 'Quicksand', sans-serif;
+	display: block;
+	padding: 1.875rem;
+}
+
+.menu-nav li.active a {
+	color: #FFF;
+	background-color:rgba(45, 133, 45, 0.95);
+}
+
+.menu-nav li.active:before , .menu-nav li.active:after {
+	content:"";
+	width: 0;
+	height: 0;
+	position:absolute;
+	bottom:-1.1875rem;
+	border-style: solid;
+	z-index:1;
+}
+
+.menu-nav li.active:before {
+	left:0;
+	border-width: 1.25rem 3.75rem 0 0;
+	border-color: rgba(45, 133, 45, 0.95) transparent transparent;
+}
+
+.menu-nav li.active:after {
+	right:0;
+	border-width: 0 3.75rem 1.25rem 0;
+	border-color: transparent rgba(45, 133, 45, 0.95)transparent ;
+}
+
+.single-dish::before{
+	content:"";
+	display:block;
+	position:relative;
+	top:25px;
+	height:1px;
+	width:100%;
+	border-top:1px dashed black;
+	z-index:-1;
+}
+
+.single-dish{
+	position:relative;
+	z-index:10;
+}
+
+.dish{
+	padding-top: 10px; 
+	float: left; 
+	background-color:#FFF; 
+	padding-right: 10px;
+}
+
+.price{
+	color: rgba(45, 133, 45, 0.77); 
+	padding-top: 10px; 
+	float: right; 
+	background-color:#FFF; 
+	padding-left: 10px;
+}
+
+
+.input{
+	border-radius: 3.125rem 3.125rem;
+	background-color: black;
+	opacity: 0.9;
+	padding: 0.3125rem;
+	width: 15.625rem;
+	margin-top: 0.3125rem;
+	color: white;
+}
+
+#label{
+	margin-left: 0.4375rem;
+	font-weight: bold;
+	padding-top: 1.25rem;
+	color: white;
+}
+
+#order-button{
+	border-radius: 3.125rem 3.125rem; 
+	background-color: rgba(45, 133, 45, 0.77); 
+	padding: 0.625rem; 
+	font-size: 1.25rem; 
+	color: white;
+	font-weight: bold;
+}
+
+#day{
+	display:inline-block;
+	color: white;
+	font-weight: 400;
+	font-size: 1.0625rem;
+	font-style: italic;
+}
+
+ul li #time{
+	color: rgba(45, 133, 45, 0.77);
+	font-weight: 400;
+	float: right;
+	font-size: 1.0625rem;
+}
+
+#list{
+	padding: 0.3125rem;
+	list-style: none;
+}
+
+#footer {
+	padding-top:0.25rem;
+	padding-bottom:2.5rem;
+	background-color:black;
+}
+
+.footer-nav {
+	text-align: right;
+	float: right;
+	margin-right: 0rem;
+}
+
+.footer-nav a {
+	display:inline-block;
+	margin-left:0.9375rem;
+	color:white;
+	font-size:0.875rem;
+	text-transform:uppercase;
+}
+
+.footer-nav a:hover , .footer-nav a:focus {
+	color:rgba(45, 133, 45, 0.77);
+}
