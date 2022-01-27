@@ -1,5 +1,5 @@
 ## Azure Future Ready Talent Project
-##Restaurant Reservation Website - Bon Appetit
+## Restaurant Reservation Website - Bon Appetit
 
 In the project i have created a restaurant reservation website where we can easily book or reserve tables online without having to physically visit the restaurant or wait for
 phone calls to be answered. Also this will help the reataurant owners to easily manage/organise the bookings/reservations online replacing the old paper system. They can collect
