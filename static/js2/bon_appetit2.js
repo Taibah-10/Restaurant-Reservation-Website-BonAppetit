@@ -283,7 +283,7 @@ function sizemd(){
         for(i=0; i<input.length; i++){
             input[i].style.width="350px";
         }
-        document.getElementById("about").style.height="870px";
+        document.getElementById("about").style.height="790px";
         abt1.style.fontSize="20px";
         abt1.style.marginBottom = "20px";
         abt1.className="col-12";
@@ -356,7 +356,7 @@ function sizemd(){
         reservation.style.height="1500px";
         form1.className="col-12";
         form2.className="col-12";
-        document.getElementById("about").style.height="970px";
+        document.getElementById("about").style.height="790px";
         document.getElementById("welcome").style.fontSize="36px";
         document.getElementById("menucontent").style.height="1100px";
         document.getElementById("menucontainer").style.paddingLeft="24px";
@@ -421,7 +421,7 @@ function sizemd(){
         reservation.style.height="1500px";
         form1.className="col-12";
         form2.className="col-12";
-        document.getElementById("about").style.height="970px";
+        document.getElementById("about").style.height="790px";
         document.getElementById("welcome").style.fontSize="36px";
         document.getElementById("menucontent").style.height="1100px";
         document.getElementById("menucontent").style.paddingLeft="0px";
