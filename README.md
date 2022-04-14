@@ -11,4 +11,4 @@ the information from the customers to confirm or cancel the reservation easily.
 - Azure cloud shell
 - Azure portal
 
-Azure Web Apps PROJECT DEMO LINK: https://restaurantreservationwebsitebonappetite.azurewebsites.net/
+Azure Web Apps PROJECT DEMO LINK: http://bonappetit.azurewebsites.net/
