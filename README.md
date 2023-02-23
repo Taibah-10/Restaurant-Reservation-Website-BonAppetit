@@ -12,3 +12,6 @@ the information from the customers to confirm or cancel the reservation easily.
 - Azure portal
 
 Azure Web Apps PROJECT DEMO LINK: http://bonappetit.azurewebsites.net/
+
+(If the above link doesn't work, click on the link below)
+Website link: http://taibah.pythonanywhere.com/
